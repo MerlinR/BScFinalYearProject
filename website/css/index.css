@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+html *
+{
+  font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+h1{
+   color: #FFFFFF; !important;
+}
+
+h1{
+  font-size: 250%;
+}
+h2{
+  font-size: 140%;
+}
+
+h4{
+  font-size: 80%;
+}
+
+small{
+  color: #C9C9C9;
+  font-size: 120%;
+}
+
+div.topdiv {
+    margin: 0px;
+    border: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #31698A;
+    padding-top:30px;
+}
+
+table, td{
+    text-align: center;
+    padding: 4px;
+    font-size: 90%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div.gmaps{
+    width: 550px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div.box{
+    width: 48%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+div.querybox{
+    width: 99%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+}
+
+#map{
+        height: 500px;
+}
+

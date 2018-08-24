@@ -1,0 +1,59 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+*.hex
+*.bin
+
+# Debug folder
+Debug/*
+
+# Releases folder
+Release/*
+build/releases/*
+
+# build folder
+*.map
+*.lst
+*.d
+*.o
+
+# Unit test build folder
+user/tests/unit/obj/*
+
+# Platform-specific settings
+.settings/*
+.cproject
+.project
+.DS_Store
+
+# Raisonance RIDE Project
+RIDE/*
+
+# backup folder
+backup/*
+
+# Arduino libraries
+libraries/Arduino/
+
+# TropicSSL libraries
+libraries/Tropicssl/
+ci/test-reports/
+nbproject/
+build/target/
+build/cores/
+hal/soft-ap/.idea/
